@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&family=Noto+Sans+Tangsa&family=Poppins:ital,wght@1,100;1,800&display=swap');
+
+/* ID Selector */
+#head1{
+    background-color: aquamarine;
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Class selector */
+.P1{
+    background-color: burlywood;
+    color:greenyellow;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+font-family: 'Poppins', sans-serif;
+    
+
+}
+
+/* Tag selector */
+h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+    /* background-color: coral; */
+}
+
+/* Universal selector */
+*{
+    text-align: center;
+    font-weight: bolder;
+   
+}   
+
+/* Grouping selector */
+h3,p,ol{
+    color:darkslategray;
+    background-color: chocolate;
+}
+
+/* Pseudo selector */
+h4:hover{
+    color: cadetblue;
+    background-color: darkslateblue;
+}
+
+/* Pseudo element selector */
+p::first-line{
+    color: blueviolet;
+}
+
